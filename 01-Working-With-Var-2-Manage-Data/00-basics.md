@@ -6,4 +6,3 @@
   
 ### B) Download PyCharm IDE:
 - https://www.jetbrains.com/edu-products/download/#section=pycharm-edu
-  - 
