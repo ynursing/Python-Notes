@@ -1,4 +1,4 @@
-## 0: Downloading basics
+## 01: Downloading basics
 
 ### A) Download Python:
 - https://www.python.org/downloads/
