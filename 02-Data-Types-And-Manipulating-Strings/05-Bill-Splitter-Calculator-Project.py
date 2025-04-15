@@ -1,4 +1,5 @@
-~~~python
+## 05 - Bill Splitter Calculator Project
+
 print("Welcome to the bill split calculator!")
 bill = float(input("What is the total of the bill?\n$"))
 tip = int(input("How much would you like to give? 10, 12, or 15?\n"))
@@ -16,4 +17,3 @@ print(f"Each person should pay: ${formatted_split}")
 # How many people to split the bill with?
 # 5
 # Each person should pay: $33.60
-~~~
