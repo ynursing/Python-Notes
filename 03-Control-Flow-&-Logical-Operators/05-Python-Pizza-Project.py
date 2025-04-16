@@ -5,16 +5,21 @@ extra_cheese = input("Do you want extra cheese? Y or N: ")
 pizza_price = 0
 if size == "L":
     pizza_price = 25
-    if pepperoni == "Y":
-        pizza_price += 3
 elif size == "M":
     pizza_price = 20
-    if pepperoni == "Y":
-        pizza_price += 3
 elif size == "S":
     pizza_price = 15
-    if pepperoni == "Y":
+else:
+    print("You chose the wrong input for size.")
+if pepperoni == "Y":
+    if size == "S":
         pizza_price += 2
+    else:
+        pizza_price += 3
+else:
+    print("No pepperoni for you.")
 if extra_cheese == "Y":
     pizza_price += 1
+else:
+    print("No extra cheese.")
 print(f"Your final bill is: ${pizza_price}.")
