@@ -6,6 +6,12 @@
 ~~~python
 print("Whatever string you want here")
 # Will print all strings entered within the quotation marks
+# Other ways to print:
+print('This is to use single quotes')
+print('''3 single quotes 
+are used for multiple.''')
+print('Use a forward slash when there\'s another single quote in the string')
+# Forward slash allows the statement to ignore something that it would normally treat
 ~~~
 
 ### B) Taking input from console
