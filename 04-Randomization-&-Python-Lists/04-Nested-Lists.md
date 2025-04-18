@@ -4,7 +4,7 @@
 - Occurs when selecting an item out of range of the list
 - In case of states_of_america, there are 50 states
 - However machine count starts from 0 to 49 when assigning a position to each item
-- In event <font color="cyan">print(states_of_america[50])</font>, we will get an index error
+- In event <font color="cyan">print(states_of_america\[50])</font>, we will get an index error
 
 ### B) Nested Lists
 - Creating a new list by making reference to 2 or more lists in it
