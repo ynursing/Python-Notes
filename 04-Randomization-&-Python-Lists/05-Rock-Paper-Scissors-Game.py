@@ -37,11 +37,9 @@ else:
     print(computer_choice)
     if user_input == moves.index(computer_choice):
         print("It's a draw.")
-    elif user_input == 0 and computer_choice == moves[2]:
-        print("You win!")
-    elif user_input == 1 and computer_choice == moves[0]:
-        print("You win!")
-    elif user_input == 2 and computer_choice == moves[1]:
+    elif (user_input == 0 and computer_choice == moves[2]) or \
+          user_input == 1 and computer_choice == moves[0] or \
+          user_input == 2 and computer_choice == moves[1]:
         print("You win!")
     else:
         print("You lose!")
