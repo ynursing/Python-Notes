@@ -11,10 +11,10 @@
 - Ex:
 ~~~python
 fruits = ["Cherry", "Apple", "Pear"]
-veg = ["Cucumber", "Kale", "Spinnach"]
+veg = ["Cucumber", "Kale", "Spinach"]
 fruits_and_veg = [fruits, veg]
 print(fruits_and_veg)
-# The list would look like this: [["Cherry", "Apple", "Pear"], ["Cucumber", "Kale", "Spinnach"]]
+# The list would look like this: [["Cherry", "Apple", "Pear"], ["Cucumber", "Kale", "Spinach"]]
 print(fruits_and_veg[1][1])
 # Output will be "Kale" as [1][1] asks to reference 2nd item in fruits_and_veg
 # 2nd item in that variable is the "veg" list
