@@ -14,17 +14,17 @@ password= ""
 
 # Use range() function along with input to determine max number of
 # letters, numbers & symbols allowed
-for char in range(0, nr_letters):
+for char in range(1, nr_letters + 1):
     # Declare a variable to store the choices that were made
     random_char = random.choice(letters)
     password += random_char
 
-for symbol in range(0, nr_symbols):
+for symbol in range(1, nr_symbols + 1):
     # Declare a variable to store the choices that were made
     random_symbol = random.choice(symbols)
     password += random_symbol
 
-for num in range(0, nr_numbers):
+for num in range(1, nr_numbers + 1):
     # Declare a variable to store the choices that were made
     random_number = random.choice(numbers)
     password += random_number
