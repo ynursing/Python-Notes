@@ -18,7 +18,7 @@ while something_is_true:
 - ![image](/Images/06-While-Function-Game-1.png)
 - ![image](/Images/06-While-Function-Game-2.png)
 ~~~python
-# SOLUTION FOR ALL POSSIBLE CASES FOR REEBOG'S WORLD MAZE
+# SOLUTION FOR ALL POSSIBLE CASES FOR REEBORG'S WORLD MAZE
 def turn_right():
     turn_left()
     turn_left()
