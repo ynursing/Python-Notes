@@ -14,7 +14,7 @@ nr_symbols = int(input(f"How many symbols would you like?\n"))
 nr_numbers = int(input(f"How many numbers would you like?\n"))
 
 # Declare a variable to store the choices
-password= ""
+password = ""
 
 # Use range() function along with input to determine max number of
 # letters, numbers & symbols allowed
