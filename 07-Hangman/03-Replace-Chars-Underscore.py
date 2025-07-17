@@ -1,12 +1,11 @@
 import random
 word_list = ["aardvark", "baboon", "camel"]
 
-placeholder = ""
-
 chosen_word = random.choice(word_list)
 
 # print(chosen_word)
 # TODO-1: Create a "placeholder" with the same number of blanks as the chosen_word
+placeholder = ""
 
 word_length = len(chosen_word)
 for position in range(word_length):
@@ -20,10 +19,8 @@ guess = input("Guess a letter: ").lower()
 display = ""
 for letter in chosen_word:
     if letter == guess:
-#        print(letter)
         display += letter
     else:
-#        print(placeholder)
         display += "_"
 
 print(display)
