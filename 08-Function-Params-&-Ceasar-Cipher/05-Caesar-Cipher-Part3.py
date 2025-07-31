@@ -31,7 +31,7 @@ while rehash_questions:
     shift = int(input("Type the shift number:\n"))
 
     caesar(original_text=text, shift_amount=shift, encode_or_decode=direction)
-    continuation = input("Would you like to go again? Yes or no? ").lower()
+    continuation = input("Would you like to go again? Yes or no? \n").lower()
     if continuation == "no":
         rehash_questions = False
         print("Goodbye!")
