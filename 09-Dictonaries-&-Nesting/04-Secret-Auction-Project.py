@@ -1,5 +1,4 @@
 from art import logo
-
 print(logo)
 
 # TODO-1: Ask the user for input
